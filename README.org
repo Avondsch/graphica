@@ -37,4 +37,4 @@ Graphica should be able to be used in any scenario involving scientific calculat
 
 ** Warning!
 
-This is a purely hobbyist project which is by no means meant to be used for serious work in any form, this is not even alpha stage software at its best. And work can truly only be expected to start from my side in a year or two.
+This is a purely hobbyist project which is by no means meant to be used for serious work in any form, this is not even alpha stage software at its best. And work can truly only be expected to start from my side in a year or two. Hence why the repository is empty until I am comfortable that it's stable.
