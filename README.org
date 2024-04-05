@@ -1,6 +1,6 @@
 * Proof of Concept, Work will start soon!
 
-Graphica is a mathematics engine, which is inspired by [[https://github.com/3b1b/manim][manim]]. It is purely an /engine for achieving the visualisation of mathematical problems and to achieve a simple interface to conduct mathematical calculations In a fast, Modular and Secure manner./
+Graphica is a mathematics engine, which is inspired by [[https://github.com/3b1b/manim][manim]]. It is purely an /engine for achieving the visualisation of mathematical problems and to achieve a simple interface to conduct mathematical calculations In a fast, modular and secure manner./
 
 ** Why?
 
