@@ -3,7 +3,7 @@
 Graphica is a mathematical animations engine, which is inspired by [[https://github.com/3b1b/manim][manim]]. But, manim is a python library, which works fine given the scripting-language nature of python.
 Graphica is purely an /engine for achieving visualisation of mathematical problems/. Say you want to visualise a 3 dimensional graph, but in a more quirky way, graphica has got you covered.
 
-I am a mathematics nerd who has for long been using manim, but I feel certain limitations with it, especially since its written in python. Therefore, I am creating this project to learn more about programming and mathematics and,
+I am a mathematics nerd who has for long been using manim, but I feel certain limitations with it, especially since its written in python (which i am not familiar with, and certainly feels slow on my end). Therefore, I am creating this project to learn more about programming and mathematics and,
 to perhaps make a manim alternative which makes sense to me.
 
 ** How does it work?
