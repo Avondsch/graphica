@@ -15,7 +15,7 @@ Fennel support should also work out of the box, courtesy of me being a lisp nerd
 
 ** Implementation.
 
-Basically it's Rust-made manim with lua bindings. /This entire document was definetely not a social experiment to see how long you can read this mess./ Most of graphica's design and implementation is inspired by manim,
+Basically it's Rust-made manim with lua bindings. (/This entire document was definetely not a social experiment to see how long you can read this mess./) Most of graphica's design and implementation is inspired by manim,
 but it takes due advantage of rust's capabilities and some /saner(?)/ design choices and aims to achieve the following:
 
 **** 1. Smooth, orgasm-inducing animations thanks to Vulkan
