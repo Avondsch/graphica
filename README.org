@@ -18,10 +18,10 @@ Fennel support should also work out of the box, courtesy of me being a lisp nerd
 Basically it's Rust-made manim with lua bindings. /This entire document was definetely not a social experiment to see how long you can read this mess./ Most of graphica's design and implementation is inspired by manim,
 but it takes due advantage of rust's capabilities and some /saner(?)/ design choices and aims to achieve the following:
 
-**** Smooth, orgasm-inducing animations thanks to Vulkan
-**** Concurrency for complex animations
-**** Cool Parallelisation support with Nvidia CUDA (Track the CUDA branch for that build, but dont expect much work on it now.)
-**** Integration with Lua and to make the writing experience far superior to that of manim
+**** 1. Smooth, orgasm-inducing animations thanks to Vulkan
+**** 2. Concurrency for complex animations
+**** 3. Cool Parallelisation support with Nvidia CUDA (Track the CUDA branch for that build, but dont expect much work on it now.)
+**** 4. Integration with Lua and to make the writing experience far superior to that of manim
 
 ** Warning!
 
