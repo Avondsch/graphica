@@ -1,27 +1,39 @@
 * Proof of Concept, Work will start soon!
 
-Graphica is a mathematical animations engine, which is inspired by [[https://github.com/3b1b/manim][manim]]. But, manim is a python library, which works fine given the scripting-language nature of python.
-Graphica is purely an /engine for achieving visualisation of mathematical problems/. Say you want to visualise a 3 dimensional graph, but in a more quirky way, graphica has got you covered.
+Graphica is a mathematics engine, which is inspired by [[https://github.com/3b1b/manim][manim]]. It is purely an /engine for achieving the visualisation of mathematical problems and to achieve a simple interface to conduct mathematical calculations./
 
-I am a mathematics nerd who has for long been using manim, but I feel certain limitations with it, especially since its written in python (which i am not familiar with, and certainly feels slow on my end). Therefore, I am creating this project to learn more about programming and mathematics and,
-to perhaps make a manim alternative which makes sense to me.
+** Why?
 
-** How does it work?
+Graphica is a manim alternative with more extended functionality. It is designed for everyone, from programmers who need an efficient way to calculate complex mathematics problems with support for concurrent calculations,
+to scientists who need to compute fractals, run simulations, etc. to Highschool students such as myself, needing a fancy way to look at your 3-dimensional graphs (which was how I actually got this Idea).
 
-Graphica is not a full-scale application. It is not a geogebra clone. It still is upholds the programmatic way of animating math that manim implements, but in a different way.
+The implementation actually takes inspiration from Roblox and its take on user-creatable games with lua. Graphica operates almost as if it's a game engine, with there being a well defined api to interact with.
+There is a large amount of abstraction (if you need it) such that you, the math-nerd-programmer-abomination, has it easy to visualise or crunch math. Which is not a luxury enjoyed by manim users such as myself, who have been
+using it more as a traditional python library than a mathematics engine.
 
-Long story short, it uses lua bindings for all the functions that graphica implements, making you, the programmer-math-nerd-abomination a little less sleep deprived.
-Fennel support should also work out of the box, courtesy of me being a lisp nerd.
+Python is still considered to be the most sane choice for scientific programming / computing because of its simple syntax and easy learning curve which is very much a joy to work with, and it usually serves well.
+However, Rust is actively proving itself to be better for such complex calculations because now you have low-level speed, but with none of the memory safety hassles you would have with C or C++, and it honestly makes python a little
+bit redundant. Rust has got great support for scientific computing with many crates out there catering to your linear-algebra or differential equations needs, and it's honestly a shame that it has not been adopted
+for scientific computing whereas something like julia has.
 
-** Implementation.
+The culprit is obviously its syntax, which, Graphica aims to solve by using a layer for lua / fennel bindings to all of graphica's functions. But, you can still use Graphica without it,
+maybe for your custom fancy calculator for which you have an interface for.
 
-Basically it's Rust-made manim with lua bindings. (/This entire document was definetely not a social experiment to see how long you can read this mess./) Most of graphica's design and implementation is inspired by manim,
-but it takes due advantage of rust's capabilities and some /saner(?)/ design choices and aims to achieve the following:
+** Design Philosophy
 
-**** 1. Smooth, orgasm-inducing animations thanks to Vulkan
-**** 2. Concurrency for complex animations
-**** 3. Cool Parallelisation support with Nvidia CUDA (Track the CUDA branch for that build, but dont expect much work on it now.)
-**** 4. Integration with Lua and to make the writing experience far superior to that of manim
+Most of graphica's design and implementation is inspired by manim, but it differs in a lot of aspects.
+
+Generally the project follows these motos:
+
+**** 1. Speed and Efficiency is key
+Stuff's gotta go fast, we take Advantage of Concurrency to achieve faster computations.
+
+**** 2. Modularity is of the highest importance
+Graphica should be able to be used in any scenario involving scientific calculations. The User has all liberty to how much they would like to use of graphica.
+
+**** 3. Make smooth, robust animations using [[https://github.com/gfx-rs/wgpu][wgpu]] with Vulkan (Sorry OpenGL)
+
+**** 4. Integration with Lua and to make the writing experience far superior to that of manim (Optional)
 
 ** Warning!
 
