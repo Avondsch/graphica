@@ -4,7 +4,7 @@ Graphica is a mathematics engine, which is inspired by [[https://github.com/3b1b
 
 ** Why?
 
-Graphica is a manim alternative with more extended functionality. It is designed for everyone, from programmers who need an efficient way to calculate complex mathematics problems with support for concurrent calculations,
+Graphica is a manim alternative with more extended functionality. It is designed for everyone, from programmers who need an efficient way to crunch matrices with support for concurrent calculations,
 to scientists who need to compute fractals, run simulations, etc. to Highschool students such as myself, who need a fancy way to look at our 3-dimensional graphs (which was how I actually got this Idea).
 
 The implementation actually takes inspiration from Roblox and its take on user-creatable games with lua. Graphica operates almost as if it's a game engine, with there being a well defined api to interact with.
